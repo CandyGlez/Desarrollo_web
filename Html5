@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <meta name="author" content="Candy González" />
+	      <meta name="copyright" content="Licensed ..." />
+     	  <meta name="description" content="Ejemplo HTML">
+        <meta name="robots" content="index, follow">
+        <title>Ejemplo Web Html5</title>
+        <link rel="stylesheet" href="css/estilo.css" />
+    </head>
+<body>
+<div class="contenedor">
+    <header>
+        <hgroup>
+            <h1>Cabecera</h1>
+            <h2>Subcabecera</h2>
+        </hgroup>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Menu Opción 1</a></li>
+            <li><a href="#">Menu Opción 2</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <header>
+                <h1>Artículo #1</h1>
+            </header>
+            <section>
+                Este es el primer artículo
+            </section>
+        </article>
+        <article>
+            <header>
+                <h1>Artículo #2</h1>
+            </header>
+            <section>
+                Este es el segundo artículo
+            </section>
+        </article>
+    </section>
+    <aside>
+        <section>
+            <h1>Links</h1>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+            </ul>
+        </section>
+        <figure>
+            <img width="185" height="185" 
+                src="img/image.jpg" 
+                alt="foobar" />
+            <figcaption>Foobar</figcaption>
+        </figure>
+    </aside>
+    <footer>Candy González</footer>
+    </div>
+</body>
+</html>
